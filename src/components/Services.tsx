@@ -16,10 +16,10 @@ const services = [
     color: 'bg-indigo-50',
   },
   {
-    title: 'Event Bulk Orders',
-    desc: 'Special 250ml and 500ml packs for weddings and events.',
-    icon: <CalendarDays className="w-8 h-8" />,
-    color: 'bg-sky-50',
+    title: 'Emergency Delivery',
+    desc: 'Quick support when you need water the most. (Subject to availability)',
+    icon: <Truck className="w-8 h-8" />,
+    color: 'bg-green-50',
   },
   {
     title: 'Monthly Subscriptions',
@@ -108,7 +108,9 @@ const Services = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://wa.me/919876543210?text=I'm%20interested%20in%20a%20monthly%20subscription."
+              href="https://wa.me/919371073525?text=I'm%20interested%20in%20a%20monthly%20subscription."
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white text-primary px-12 py-6 rounded-3xl font-black text-lg hover:bg-brand-light transition-all shadow-2xl"
             >
               View Plans &rarr;

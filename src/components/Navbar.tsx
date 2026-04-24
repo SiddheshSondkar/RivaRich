@@ -35,8 +35,8 @@ const Navbar = () => {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-2"
           >
-            <div className="bg-primary p-2 rounded-xl shadow-lg shadow-primary/20">
-              <Droplets className="text-white w-6 h-6" />
+            <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-primary/20 shadow-lg shadow-primary/10">
+              <img src="/images/Icon.png" alt="Riva Rich Logo" className="w-full h-full object-cover" />
             </div>
             <span className="text-2xl font-bold tracking-tight text-primary">
               Riva <span className="text-secondary">Rich</span>
@@ -65,7 +65,9 @@ const Navbar = () => {
               animate={{ opacity: 1, scale: 1 }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="tel:+919876543210"
+              href="tel:+919371073525"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-primary text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-secondary transition-all flex items-center gap-2 shadow-xl shadow-primary/20"
             >
               <Phone size={16} />
@@ -119,7 +121,9 @@ const Navbar = () => {
                 className="pt-6"
               >
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919371073525"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full bg-primary text-white px-6 py-5 rounded-2xl font-bold flex items-center justify-center gap-3 shadow-2xl shadow-primary/20"
                 >
                   <Phone size={20} />

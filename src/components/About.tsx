@@ -36,7 +36,7 @@ const About = () => {
           >
             <div className="relative z-10 rounded-[60px] overflow-hidden shadow-2xl border-[10px] border-white">
               <img
-                src="https://picsum.photos/seed/purification/800/1000"
+                src="/images/plant.jpg"
                 alt="Water Purification Plant"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
                 referrerPolicy="no-referrer"
@@ -49,9 +49,9 @@ const About = () => {
               transition={{ delay: 0.4 }}
               className="absolute -bottom-10 -right-10 bg-white p-10 rounded-[40px] shadow-2xl z-20 max-w-[280px] border border-primary/5 hidden md:block"
             >
-              <p className="text-primary font-black text-xl mb-3 tracking-tight">Quality First</p>
+              <p className="text-secondary font-black text-xl mb-3 tracking-tight">Est. 2012</p>
               <p className="text-sm text-brand-text/50 leading-relaxed font-medium">
-                Our state-of-the-art plant in Pune follows strict ISI standards for your safety.
+                Our state-of-the-art plant in Pune follows strict FSSAI & BIS standards for your safety.
               </p>
             </motion.div>
           </motion.div>
@@ -67,7 +67,7 @@ const About = () => {
               <span className="text-secondary italic font-serif">Promise of Purity</span>
             </h2>
             <p className="text-brand-text/60 mb-10 leading-relaxed text-lg font-medium">
-              At Riva Rich, we believe that pure water is the foundation of a healthy life. Our journey started in Pune with a simple mission: to provide premium quality drinking water that is both safe and refreshing.
+              At Riva Rich, we believe that pure water is the foundation of a healthy life. Established in 2012 in Pune, our mission is to provide premium quality drinking water that is both safe and refreshing.
             </p>
 
             <div className="space-y-10 mb-12">
@@ -93,7 +93,7 @@ const About = () => {
 
             <div className="grid grid-cols-2 gap-6 pt-8 border-t border-primary/5">
               {[
-                'ISI Certified', 'Mineral Balanced', 'Hygienic Bottling', 'Lab Tested'
+                'BIS Certified', 'FSSAI Approved', 'Mineral Balanced', 'Lab Tested'
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-3">
                   <div className="bg-green-500/10 p-1 rounded-full">

@@ -8,48 +8,32 @@ const products = [
     name: '250 ml Bottle',
     size: '250ml',
     description: 'Perfect for events, meetings, and quick hydration.',
-    image: 'https://picsum.photos/seed/water1/400/500',
-    price: 'Ideal for Events',
+    image: '/images/250ml.png',
+    price: 'Inquire Price',
   },
   {
     id: 2,
     name: '500 ml Bottle',
     size: '500ml',
     description: 'The classic choice for travel and daily commute.',
-    image: 'https://picsum.photos/seed/water2/400/500',
-    price: 'Best Seller',
+    image: '/images/500ml.png',
+    price: 'Inquire Price',
   },
   {
     id: 3,
     name: '1 Litre Bottle',
     size: '1L',
     description: 'Standard size for home, office, and dining.',
-    image: 'https://picsum.photos/seed/water3/400/500',
-    price: 'Family Choice',
+    image: '/images/1ltr.png',
+    price: 'Inquire Price',
   },
   {
     id: 4,
-    name: '2 Litre Bottle',
-    size: '2L',
-    description: 'Extra hydration for long trips and sports.',
-    image: 'https://picsum.photos/seed/water4/400/500',
-    price: 'Value Pack',
-  },
-  {
-    id: 5,
-    name: '5 Litre Can',
-    size: '5L',
-    description: 'Convenient for small families and weekend trips.',
-    image: 'https://picsum.photos/seed/water5/400/500',
-    price: 'Home Use',
-  },
-  {
-    id: 6,
     name: '20 Litre Jar',
     size: '20L',
     description: 'The ultimate solution for home and office supply.',
-    image: 'https://picsum.photos/seed/water6/400/500',
-    price: 'Office Choice',
+    image: '/images/20ltrjar.png',
+    price: 'Inquire Price',
   },
 ];
 
@@ -115,7 +99,9 @@ const Products = () => {
                   <motion.a
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    href={`https://wa.me/919876543210?text=Hello,%20I%20want%20to%20order%20Riva%20Rich%20${product.name}.`}
+                    href={`https://wa.me/919371073525?text=Hello,%20I%20want%20to%20order%20Riva%20Rich%20${product.name}.`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-full bg-brand-light text-primary py-4 rounded-2xl font-bold flex items-center justify-center gap-3 hover:bg-primary hover:text-white transition-all duration-300 group/btn"
                   >
                     <MessageCircle size={20} className="group-hover/btn:scale-110 transition-transform" />

@@ -4,28 +4,28 @@ import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Rahul Deshmukh',
-    role: 'Homeowner, Baner',
-    content: 'The quality of Riva Rich water is exceptional. We have been using their 20L jars for 6 months now, and the delivery is always on time.',
+    name: 'Yewale Amruttulya',
+    role: 'Pune',
+    content: 'We use Riva Rich water for our daily requirements. The purity and consistency are unmatched, which helps us maintain our quality.',
     rating: 5,
   },
   {
-    name: 'Priya Sharma',
-    role: 'Office Manager, Hinjewadi',
-    content: 'Reliable service and very professional staff. Their 250ml bottles were a hit at our corporate event last month.',
+    name: 'Monginis Foods',
+    role: 'Pune',
+    content: 'Reliable service and very professional staff. Their fast supply chain ensures we never run out of quality packaged water.',
     rating: 5,
   },
   {
-    name: 'Amit Kulkarni',
-    role: 'Shop Owner, Kothrud',
-    content: 'Best water supplier in Pune. The mineral balance is perfect, and the taste is very fresh compared to other brands.',
+    name: 'SGS Mall',
+    role: 'Pune',
+    content: 'Best water supplier in Pune. The 20L jars they supply perfectly meet the heavy daily drinking water demands of our mall spaces.',
     rating: 5,
   },
   {
-    name: 'Sneha Patil',
-    role: 'Event Planner',
-    content: 'I always recommend Riva Rich to my clients for weddings. Their premium packaging adds a touch of class to the tables.',
-    rating: 4,
+    name: 'Santosh Kadam',
+    role: 'Event Organizer',
+    content: 'I always recommend Riva Rich to my clients for weddings and corporate events. The delivery is extremely prompt.',
+    rating: 5,
   },
 ];
 

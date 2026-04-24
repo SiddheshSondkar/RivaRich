@@ -32,12 +32,12 @@ const Hero = () => {
             </motion.div>
             
             <h1 className="text-5xl md:text-8xl font-bold leading-[1.05] mb-8 text-primary tracking-tight">
-              Pure, Safe & <br />
-              <span className="text-secondary italic font-serif">Fresh</span> Water
+              Rich in <span className="text-secondary italic font-serif">Taste</span>, <br />
+              Rich in <span className="text-secondary italic font-serif">Purity</span>
             </h1>
             
             <p className="text-lg md:text-xl text-brand-text/70 mb-10 max-w-lg leading-relaxed font-medium">
-              Elevate your hydration experience with Riva Rich. Advanced purification meets mineral-rich goodness, delivered with precision across Pune.
+              Elevate your hydration experience with Riva Rich. Advanced purification meets mineral-rich goodness, delivered with precision across Pune since 2012.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5 mb-12">
@@ -54,7 +54,9 @@ const Hero = () => {
                 <motion.a
                   whileHover={{ scale: 1.1, rotate: -5 }}
                   whileTap={{ scale: 0.9 }}
-                  href="tel:+919876543210"
+                  href="tel:+919371073525"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white text-primary border border-primary/10 p-5 rounded-2xl hover:bg-brand-light transition-all shadow-xl shadow-primary/5"
                   title="Call Us"
                 >
@@ -63,7 +65,9 @@ const Hero = () => {
                 <motion.a
                   whileHover={{ scale: 1.1, rotate: 5 }}
                   whileTap={{ scale: 0.9 }}
-                  href="https://wa.me/919876543210?text=Hello,%20I%20want%20to%20order%20Riva%20Rich%20water."
+                  href="https://wa.me/919371073525?text=Hello,%20I%20want%20to%20order%20Riva%20Rich%20water."
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-green-500 text-white p-5 rounded-2xl hover:bg-green-600 transition-all shadow-xl shadow-green-500/20"
                   title="WhatsApp Us"
                 >
@@ -111,7 +115,7 @@ const Hero = () => {
               
               <div className="relative h-full w-full rounded-[60px] overflow-hidden shadow-[0_40px_80px_-15px_rgba(20,74,125,0.2)] border-[12px] border-white">
                 <img
-                  src="https://picsum.photos/seed/water-bottle/800/1000"
+                  src="/images/allsize.png"
                   alt="Riva Rich Water Bottle"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                   referrerPolicy="no-referrer"
@@ -128,16 +132,6 @@ const Hero = () => {
                   <span className="block text-4xl font-black text-primary tracking-tighter">100%</span>
                   <span className="text-[9px] font-black uppercase tracking-[0.3em] text-secondary">Pure & Safe</span>
                 </div>
-              </motion.div>
-
-              {/* Marathi Tagline */}
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.8 }}
-                className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-primary text-white px-8 py-4 rounded-2xl shadow-2xl z-20 whitespace-nowrap"
-              >
-                <p className="text-sm font-bold tracking-wide">शुद्ध आणि सुरक्षित पिण्याचे पाणी</p>
               </motion.div>
             </div>
           </motion.div>
