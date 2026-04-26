@@ -115,7 +115,7 @@ const Hero = () => {
               
               <div className="relative h-full w-full rounded-[60px] overflow-hidden shadow-[0_40px_80px_-15px_rgba(20,74,125,0.2)] border-[12px] border-white">
                 <img
-                  src="/images/NautreShot.png"
+                  src="/images/allsize.png"
                   alt="Riva Rich Water Bottle"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                   referrerPolicy="no-referrer"

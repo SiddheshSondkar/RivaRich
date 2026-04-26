@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import About from './components/About';
+import VideoBanner from './components/VideoBanner';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
@@ -23,6 +24,7 @@ export default function App() {
         <Hero />
         <Products />
         <About />
+        <VideoBanner />
         <Services />
         <Gallery />
         <Testimonials />

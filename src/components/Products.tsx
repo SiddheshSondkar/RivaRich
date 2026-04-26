@@ -35,14 +35,6 @@ const products = [
     image: '/images/20ltrjar.png',
     price: 'Inquire Price',
   },
-  {
-    id: 5,
-    name: 'Custom labeled Bottle',
-    size: 'All Sizes',
-    description: 'The Custom solution for Your Business.',
-    image: '/images/customlabeled.png',
-    price: 'Inquire Price',
-  },
 ];
 
 const Products = () => {
