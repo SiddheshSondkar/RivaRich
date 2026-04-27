@@ -37,7 +37,7 @@ const About = () => {
           >
             <div className="relative z-10 rounded-[60px] overflow-hidden shadow-2xl border-[10px] border-white">
               <img
-                src={getImagePath('plant.jpg')}
+                src={getImagePath('InHand.png')}
                 alt="Water Purification Plant"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
                 referrerPolicy="no-referrer"

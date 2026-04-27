@@ -60,7 +60,7 @@ const Contact = () => {
                   <label className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-400">Full Name</label>
                   <input
                     type="text"
-                    placeholder="John Doe"
+                    placeholder="Shyam Kumar"
                     className="w-full bg-brand-light border-none rounded-2xl px-6 py-4 focus:ring-2 focus:ring-secondary transition-all outline-none font-medium"
                   />
                 </div>
