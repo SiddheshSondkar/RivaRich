@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle2, Droplets, Shield, Sparkles } from 'lucide-react';
+import image from '../../Images/InHand.png';
 
 const About = () => {
   const steps = [
@@ -36,7 +37,7 @@ const About = () => {
           >
             <div className="relative z-10 rounded-[60px] overflow-hidden shadow-2xl border-[10px] border-white">
               <img
-                src="/images/plant.jpg"
+                src={image}
                 alt="Water Purification Plant"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
                 referrerPolicy="no-referrer"

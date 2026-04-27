@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { MessageCircle, ShoppingCart } from 'lucide-react';
 
+
 const products = [
   {
     id: 1,
@@ -33,6 +34,14 @@ const products = [
     size: '20L',
     description: 'The ultimate solution for home and office supply.',
     image: '/images/20ltrjar.png',
+    price: 'Inquire Price',
+  },
+  {
+    id: 5,
+    name: 'Custom Labeled Bottles',
+    size: 'All Sizes',
+    description: 'The ultimate solution for Your Business.',
+    image: '/images/customlabeled.png',
     price: 'Inquire Price',
   },
 ];
