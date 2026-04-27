@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Phone, MessageCircle, ArrowRight, ShieldCheck, Zap, Award } from 'lucide-react';
-
+import image from '../../Images/NautreShot.png';
 const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-gradient-to-br from-brand-light via-white to-brand-light">
@@ -115,7 +115,7 @@ const Hero = () => {
               
               <div className="relative h-full w-full rounded-[60px] overflow-hidden shadow-[0_40px_80px_-15px_rgba(20,74,125,0.2)] border-[12px] border-white">
                 <img
-                  src="/images/allsize.png"
+                  src={image}
                   alt="Riva Rich Water Bottle"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                   referrerPolicy="no-referrer"
