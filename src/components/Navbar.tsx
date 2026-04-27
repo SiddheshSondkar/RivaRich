@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Droplets, Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import { getImagePath } from '../utils/imageHandler';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
             className="flex items-center gap-2"
           >
             <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-primary/20 shadow-lg shadow-primary/10">
-              <img src="/images/Icon.png" alt="Riva Rich Logo" className="w-full h-full object-cover" />
+              <img src={getImagePath('Icon.png')} alt="Riva Rich Logo" className="w-full h-full object-cover" />
             </div>
             <span className="text-2xl font-bold tracking-tight text-primary">
               Riva <span className="text-secondary">Rich</span>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Play } from 'lucide-react';
+import { getImagePath } from '../utils/imageHandler';
 
 export default function VideoBanner() {
   return (
@@ -40,7 +41,7 @@ export default function VideoBanner() {
             playsInline
             poster="https://picsum.photos/seed/clean-facility/1920/1080"
           >
-            <source src="/images/mineral-processing.mp4" type="video/mp4" />
+            <source src={getImagePath('mineral-processing.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           

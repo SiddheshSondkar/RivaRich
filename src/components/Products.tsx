@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { MessageCircle, ShoppingCart } from 'lucide-react';
-
+import { getImagePath } from '../utils/imageHandler';
 
 const products = [
   {
@@ -9,7 +9,7 @@ const products = [
     name: '250 ml Bottle',
     size: '250ml',
     description: 'Perfect for events, meetings, and quick hydration.',
-    image: '/images/250ml.png',
+    image: getImagePath('250ml.png'),
     price: 'Inquire Price',
   },
   {
@@ -17,7 +17,7 @@ const products = [
     name: '500 ml Bottle',
     size: '500ml',
     description: 'The classic choice for travel and daily commute.',
-    image: '/images/500ml.png',
+    image: getImagePath('500ml.png'),
     price: 'Inquire Price',
   },
   {
@@ -25,7 +25,7 @@ const products = [
     name: '1 Litre Bottle',
     size: '1L',
     description: 'Standard size for home, office, and dining.',
-    image: '/images/1ltr.png',
+    image: getImagePath('1ltr.png'),
     price: 'Inquire Price',
   },
   {
@@ -33,7 +33,7 @@ const products = [
     name: '20 Litre Jar',
     size: '20L',
     description: 'The ultimate solution for home and office supply.',
-    image: '/images/20ltrjar.png',
+    image: getImagePath('20ltrjar.png'),
     price: 'Inquire Price',
   },
   {
@@ -41,7 +41,7 @@ const products = [
     name: 'Custom Labeled Bottles',
     size: 'All Sizes',
     description: 'The ultimate solution for Your Business.',
-    image: '/images/customlabeled.png',
+    image: getImagePath('customlabeled.png'),
     price: 'Inquire Price',
   },
 ];

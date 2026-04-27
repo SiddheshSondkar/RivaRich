@@ -1,5 +1,6 @@
 import React from 'react';
 import { Droplets, Instagram, Facebook, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+import { getImagePath } from '../utils/imageHandler';
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white/20 bg-white shadow-lg">
-                <img src="/images/Icon.png" alt="Riva Rich Logo" className="w-full h-full object-cover" />
+                <img src={getImagePath('Icon.png')} alt="Riva Rich Logo" className="w-full h-full object-cover" />
               </div>
               <span className="text-2xl font-bold tracking-tight">
                 Riva <span className="text-secondary">Rich</span>
